@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="materOSsays.js"></script>
+    <title>MaterOS</title>
+</head>
+
+<body>
+    <header>
+        <h2>¡Bienvenid@ a <u>MaterOS!</u></h2>
+        <h4><em>¡Un lugar en donde se toman infusiones de forma justa y honesta!</em></h4>
+    </header>
+    
+    <section>
+        <article>
+            <table>
+                <tr>
+                    <th></th>
+                    <th><h1>MaterOS dice:</h1></th>
+                </tr>
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td><input type="button" value="¡Agregar un Matero!" onclick="addMatero()"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" value="¡Comienza la ronda!" id="botonSays" onclick="whosnext()"></td></td>
+                            </tr>
+                        </table>  
+                    </td>
+                    <td><textarea id="materoTurno" cols="30" rows="10"></textarea></td>
+                </tr>
+            </table>
+        </article>
+      </section>
+</body>
+</html>
